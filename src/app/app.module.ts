@@ -8,6 +8,7 @@ import {RouterOutlet} from "@angular/router";
 import { NavbarComponent } from './website/navbar/navbar.component';
 import { ContactUsComponent } from './website/contact-us/contact-us.component';
 import { AboutComponent } from './website/about/about.component';
+import { NewsComponent } from './website/news/news.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutComponent } from './website/about/about.component';
     HomeComponent,
     NavbarComponent,
     ContactUsComponent,
-    AboutComponent
+    AboutComponent,
+    NewsComponent
   ],
     imports: [
         BrowserModule,
